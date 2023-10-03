@@ -1,12 +1,142 @@
- .screenshot1   {
-    border: 300px;
-    width: 50px;
-    padding: 50px;
-    box-sizing: 50px;
-    height: 50px;
-    margin: 50px;
-    }
-p
-     {
-        background-color: brown;
-    }
+        body {
+            background-image: url(binary2.jpg);
+        }
+    
+        .title {
+            background-image: url(Rainbow.gif);
+            font-style: italic;
+            border-radius: 300px;
+            font-size: xx-large
+        }
+    
+        .lenny {
+            float: right;
+        }
+    
+        .Heading_1 {
+            float: right;
+            background-image: url(Rainbow.gif);
+            font-style: italic;
+            border-radius: 300px;
+        }
+                .Heading_4 {
+            float: right;
+            background-color: red;
+            font-style: italic;
+            border-radius: 300px;
+            font-weight: bolder;
+            font-size: xx-large;
+            width: 250px;
+            height: 250px;
+            font-style: italic;
+        }
+            .button {
+                background-color: red;
+                width: 100px;
+                height: 100px;
+                border-radius: 300px;
+                float: left;
+                font-style: italic;
+            }
+   
+            .stop {
+                width: 200px;
+                height: 200px;
+                border-radius: 200px;
+                background-color: green;
+                font-size: large;
+                font-style: italic;
+                float: right;
+                font-weight: bold;
+            }
+   
+                .blue {
+                    background-color: blue;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 300px;
+                    float: left;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+   
+                .red {
+                    background-color: red;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 300px;
+                    float: left;
+                    font-style: italic;
+                    font-weight: bold;
+                    border-color: black;
+                }
+   
+                .orange {
+                    background-color: orange;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 300px;
+                    float: left;
+                    font-style: italic;
+                    font-weight: bold;
+                    border-color: black;
+                }
+   
+                .yellow {
+                    background-color: yellow;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 300px;
+                    float: left;
+                    font-style: italic;
+                    font-weight: bold;
+                    border-color: black;
+                }
+   
+                .green {
+                    background-color: green;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 300px;
+                    float: left;
+                    font-style: italic;
+                    font-weight: bold;
+                    border-color: black;
+                }
+  
+                    .man {
+                        border-radius: 100px;
+                        width: 100px;
+                        height: 100px;
+                        background-image: url(man-removebg-preview.png);
+                    }
+  
+                        .smile {
+                         border-radius: 100px;
+                        width: 100px;
+                        height: 100px;
+                        background-color: black;
+                    }
+  
+                        .purple {
+                        background-color: purple;
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 300px;
+                        float: left;
+                        font-style: italic;
+                        font-weight: bold;
+                        border-color: black;
+                    }
+  
+                            .beast {
+                            background-color: cyan;
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 300px;
+                            float: left;
+                            font-style: italic;
+                            font-weight: bold;
+                            border-color: palevioletred;
+                    }
+
