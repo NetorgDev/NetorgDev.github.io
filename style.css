@@ -43,7 +43,7 @@
                 width: 200px;
                 height: 200px;
                 border-radius: 200px;
-                background-color: green;
+                backround-image: url(stop_button.png);
                 font-size: large;
                 font-style: italic;
                 float: right;
