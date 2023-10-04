@@ -1,4 +1,4 @@
-        body {
+                body {
             background-image: url(binary2.jpg);
         }
     
@@ -43,7 +43,7 @@
                 width: 200px;
                 height: 200px;
                 border-radius: 200px;
-                backround-image: url(stop_button.png);
+                backround-image: url(stop_button.jpeg);
                 font-size: large;
                 font-style: italic;
                 float: right;
