@@ -140,3 +140,15 @@
                             border-color: palevioletred;
                     }
 
+                            .stop2 {
+                
+                              width: 200px;
+                              height: 200px;
+                              border-radius: 200px;
+                              backround-color: red;
+                              font-size: large;
+                              font-style: italic;
+                              float: right;
+                              font-weight: bold;
+                            }                
+
