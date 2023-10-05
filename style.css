@@ -141,7 +141,7 @@
                     }
 
                             .stop2 {
-                              background-color: red;
+                              background-image: url(stop_button.png);
                               width: 200px;
                               height: 200px;
                               border-radius: 200px;
