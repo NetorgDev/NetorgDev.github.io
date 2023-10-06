@@ -8,12 +8,6 @@
             border-radius: 300px;
             font-size: xx-large
         }
-        .title2 {
-            background-image: url(Rainbow.gif);
-            font-style: italic;
-            border-radius: 200px;
-            font-size: xx-large
-        }
         .lenny {
             float: right;
         }
@@ -169,3 +163,7 @@
                                     font-weight: bolder;
                                     font-size: x-large;
                             }
+                                    .title2 {
+                                      backround-image: url(Rainbow.gif)
+                                      font-style: italic;
+                                      border-radius: 300px
