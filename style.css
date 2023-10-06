@@ -150,11 +150,7 @@
                               float: right;
                               font-weight: bold;
                             }                
-                              .update {
-                               backround-image: url(Rainbow.gif);
-                               font-size: large;
-                               font-style: bold;
-                              }
+                              
                               .update {
                                   background-image: url(Rainbow.gif);
                                   font-size: large;
