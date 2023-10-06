@@ -8,7 +8,12 @@
             border-radius: 300px;
             font-size: xx-large
         }
-    
+        .title {
+            background-image: url(Rainbow.gif);
+            font-style: italic;
+            border-radius: 200px;
+            font-size: xx-large
+        }
         .lenny {
             float: right;
         }
