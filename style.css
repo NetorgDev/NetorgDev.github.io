@@ -172,9 +172,10 @@
                                     .footer {
                                       text-align: center;
                                       background-image: url(Rainbow.gif);
-                                      color: white;
+                                      color: black;
                                       position: fixed;
                                       bottom: 0;
                                       width: 100%;
                                       height: 60px;
+                                      text-size: x-large;
                                     }
