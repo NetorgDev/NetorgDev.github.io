@@ -167,3 +167,12 @@
                                       backround-image: url(Rainbow.gif)
                                       font-style: italic;
                                       border-radius: 300px
+                                    }
+
+                                    #bottom {
+                                      position: absolute;
+                                      bottom: 0;
+                                      left: 0;
+                                      font-size: xx-large
+                                      background-image: url(Rainbow.gif);
+                                    }
