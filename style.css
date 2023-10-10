@@ -177,5 +177,6 @@
                                       bottom: 0;
                                       width: 100%;
                                       height: 60px;
-                                      text-size: x-large;
+                                      text-size: xx-large;
+                                      font-style: bold;
                                     }
