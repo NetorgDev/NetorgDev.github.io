@@ -169,10 +169,9 @@
                                       border-radius: 300px
                                     }
 
-                                    #bottom {
-                                      position: absolute;
-                                      bottom: 0;
-                                      left: 0;
-                                      font-size: xx-large
-                                      background-image: url(Rainbow.gif);
+                                    .footer {
+                                      text-align: center;
+                                      padding: 3px;
+                                      background-color: DarkSalmon;
+                                      color: white;
                                     }
