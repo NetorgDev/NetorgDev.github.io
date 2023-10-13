@@ -1,7 +1,8 @@
                 body {
             background-image: url(myman3.png);
-        }
-    
+            Margin: 0;
+          }
+
         .title {
             background-image: url(Rainbow.gif);
             font-style: italic;
