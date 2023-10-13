@@ -217,7 +217,6 @@
                                         display: inline-block;
                                         margin-left: 70px;
                                         padding-top: 23px;
-                                        
                                         position: relative;
                                     }
                                     
@@ -241,7 +240,6 @@
                                         position: absolute;
                                         top: 0;
                                         width: 0%;
-                                        
                                         transition: all ease-in-out 250ms;
                                     }
                                     
