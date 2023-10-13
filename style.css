@@ -162,7 +162,7 @@
                                     border-radius: 250px;
                                     font-weight: bolder;
                                     font-size: large;
-                            }
+                                  }
                                     .title2 {
                                       backround-image: url(Rainbow.gif)
                                       font-style: italic;
@@ -180,3 +180,5 @@
                                       font-size: 50px;
                                       font-style: bold;
                                     }
+
+ 
