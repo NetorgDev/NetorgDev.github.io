@@ -188,7 +188,7 @@
                                       color: #000;
                                     }
 
-                                    nav a:before {
+                                    nav a::before {
                                       content: '';
                                       display: block;
                                       height: 5px;
