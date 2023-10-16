@@ -189,5 +189,9 @@
                                     }
 
                                     nav a:before {
+                                      content: '';
+                                      display: block;
+                                      height: 5px;
+                                      width: 100%
                                       color: #444;
                                     }
