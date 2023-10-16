@@ -187,3 +187,7 @@
                                     nav a:hover {
                                       color: #000;
                                     }
+
+                                    nav a:before {
+                                      backround-color: #444;
+                                    }
