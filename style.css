@@ -152,7 +152,7 @@
                             }                
                               
                               .update {
-                                  background-image: url(Rainbow.gif);
+                                  background-color: black;
                                   font-size: xx-large;
                                   font-style: bold;
                                   border-radius: 300px;
