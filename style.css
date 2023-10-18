@@ -181,20 +181,7 @@
                                       font-size: 50px;
                                       font-style: bold;
                                     }
-     
-                                              
-                                       
-                                    nav a:hover {
-                                      color: #000;
-                                    }
-
-                                    nav a::before {
-                                      content: '';
-                                      display: block;
-                                      height: 5px;
-                                      width: 100%
-                                      color: #444;
-                                    }
+                                    
                                     .neon-button {
                                       font-size: 4rem;
                                       
