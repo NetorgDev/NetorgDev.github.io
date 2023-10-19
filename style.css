@@ -184,7 +184,7 @@
                                     
                                     .neon-button {
                                       font-size: 4rem;
-                                      
+                                      color: purple;
                                       display: inline-block;
                                       cursor: pointer;
                                       text-decoration: none;
