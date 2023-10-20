@@ -198,5 +198,6 @@
 
                                     .button5 {
                                       color: purple;
+                                      text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5) 0 0 0.45em currentColor;
                                       background-color: black;
                                     }
