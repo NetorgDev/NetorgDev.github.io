@@ -193,11 +193,11 @@
                                       padding: 0.25em lem;
                                       border-radius: 0.25em;
                                       text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
-                                      background-color: 444;
+                                      background-color: Dimgray;
                                     }
 
                                     .button5 {
                                       color: purple;
                                       text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
-                                      background-color: black;
+                                      background-color: Dimgray;
                                     }
