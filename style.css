@@ -199,5 +199,5 @@
                                     .button5 {
                                       color: purple;
                                       background-color: black;
-                                      border: purple;
+                                      border: purple 4px solid;
                                     }
