@@ -188,8 +188,8 @@
                                       display: inline-block;
                                       cursor: pointer;
                                       text-decoration: none;
-                                      color: var(--clr-neon);
-                                      border: var(--clr-neon) 4px solid;
+                                      color: purple;
+                                      border: purple 4px solid;
                                       padding: 0.25em lem;
                                       border-radius: 0.25em;
                                       text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.5em currentColor;
@@ -198,7 +198,7 @@
                                     }
 
                                     .button5 {
-                                      color: var(--clr-neon)
+                                      color: purple;
                                       text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.5em currentColor;
                                       background-color: DimGray;
                                     }
