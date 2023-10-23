@@ -208,3 +208,27 @@
                                       color: black;
                                       text-shadow: none;
                                     }
+
+                                    .blue:hover {
+                                      color: white;
+                                    }
+
+                                    .orange:hover {
+                                      color: white;
+                                    }
+                                      
+                                    .red:hover {
+                                      color: white;
+                                    }
+
+                                    .yellow:hover {
+                                      color: white;
+                                    }
+
+                                    .green:hover {
+                                      color: white;
+                                    }
+
+                                    .purple:hover {
+                                      color: white;
+                                    }
