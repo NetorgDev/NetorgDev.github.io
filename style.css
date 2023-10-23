@@ -203,7 +203,7 @@
                                       background-color: DimGray;
                                     }
 
-                                      nav a:hover {
+                                      .neon-button:hover {
                                       background: pink;
                                       color: black;
                                       text-shadow: none;
