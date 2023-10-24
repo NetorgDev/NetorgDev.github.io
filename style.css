@@ -15,7 +15,7 @@
     
         .Heading_1 {
             float: right;
-            background-image: url(Rainbow.gif);
+            background-color: pink;
             font-style: italic;
             border-radius: 300px;
         }
