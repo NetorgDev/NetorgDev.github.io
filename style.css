@@ -158,14 +158,14 @@
                                   border-radius: 250px;
                               }
                                      .Heading_3 {
-                                    background-image: url(Rainbow.gif);
+                                    background-color: purple;
                                     font-style: italic;
                                     border-radius: 250px;
                                     font-weight: bolder;
                                     font-size: large;
                                   }
                                     .title2 {
-                                      backround-image: url(Rainbow.gif)
+                                      backround-color: purple;
                                       font-style: italic;
                                       border-radius: 300px
                                     }
