@@ -212,6 +212,8 @@
                                       text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.5em currentColor;
                                       background-color: DimGray;
                                       box-shadow: inset 0 0 0.5em 0 purple, 0 0 0.5em 0 purple;
+                                      transition: all 0.5s;
+                                      cursor: pointer;
                                     }
 
                                     .button5 {
@@ -224,6 +226,7 @@
                                       background: pink;
                                       color: black;
                                       text-shadow: none;
+                                      padding-right: 25px;
                                     }
 
                                     .blue:hover {
@@ -257,4 +260,24 @@
                                      .smile:hover {
                                       background-color: white;
                                     }
+
+                                    .neon-button span {
+                                      cursor: pointer;
+                                      display: inline-block;
+                                      position: relative;
+                                      transition: 0.5s;
+                                    }
                                     
+                                    .neon-button span:after {
+                                      content: '\00bb';
+                                      position: absolute;
+                                      opacity: 0;
+                                      top: 0;
+                                      right: -20px;
+                                      transition: 0.5s;
+                                    }
+                                    
+                                    .neon-button:hover span:after {
+                                      opacity: 1;
+                                      right: 0;
+                                    }
