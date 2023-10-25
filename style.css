@@ -153,13 +153,15 @@
                               text-align: center;
                               cursor: pointer;
                               outline: none;
-                              color: #fff;
+                              color: black;
                               background-color: #04AA6D;
                               border: none;
                               border-radius: 15px;
                               box-shadow: 0 9px #999;
                             }
-                              .stop2:hover {background-color: #3e8e41}
+                              .stop2:hover {
+                                background-color: #3e8e41
+                              }
 
                               .stop2:active {
                                 background-color: #3e8e41;
