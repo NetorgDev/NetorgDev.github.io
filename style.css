@@ -141,17 +141,32 @@
                     }
 
                             .stop2 {
-                              background-image: url(stop_button-removebg-preview.png);
                               width: 225px;
                               height: 225px;
                               border-radius: 200px;
                               font-size: large;
                               font-style: italic;
                               float: right;
-                              font-weight: bold;
-                            }                
+                              font-weight: bold;           
+                              padding: 15px 25px;
+                              font-size: 24px;
+                              text-align: center;
+                              cursor: pointer;
+                              outline: none;
+                              color: #fff;
+                              background-color: #04AA6D;
+                              border: none;
+                              border-radius: 15px;
+                              box-shadow: 0 9px #999;
+                            }
+                              .stop2:hover {background-color: #3e8e41}
+
+                              .stop2:active {
+                                background-color: #3e8e41;
+                                box-shadow: 0 5px #666;
+                                transform: translateY(4px);
                               
-                              .update {
+                                .update {
                                   background-color: black;
                                   font-size: xx-large;
                                   font-style: bold;
