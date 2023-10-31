@@ -306,3 +306,21 @@
                                       opacity: 1;
                                       right: 0;
                                     }
+
+                                    .pumpkin {
+                                          background-color: #bd6f0f;
+                                          width: 100px;
+                                          height: 100px;
+                                          border-radius: 300px;
+                                          float: left;
+                                          font-style: italic;
+                                          font-weight: bold;
+                                          border-color: black;
+                                          transition: width 3s;
+                                    }
+
+                                          .pumpkin:hover {
+                                                background-color: white;
+                                                width: 125px;
+                                                height: 125px;
+                                        }
