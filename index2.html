@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>about:blank Embedder</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="mainInputs">
+      <h1>about:blank Embedder</h1>
+      <input
+        type="text"
+        placeholder="https://example.com/"
+        id="url"
+        autofocus
+      />
+      <br />
+      <button onclick="create()">Embed</button>
+      <a
+        href="javascript:(function()%7Bvar%20url%20%3D%20prompt(%22Please%20enter%20the%20URL%20you'd%20like%20to%20embed.%22)%3B%0Aconst%20isValidUrl%20%3D%20(urlString)%20%3D%3E%20%7B%0A%20%20var%20urlPattern%20%3D%20new%20RegExp(%0A%20%20%20%20%22%5E(https%3F%3A%5C%5C%2F%5C%5C%2F)%3F%22%20%2B%20%2F%2F%20validate%20protocol%0A%20%20%20%20%20%20%22(((%5Ba-z%5C%5Cd%5D(%5Ba-z%5C%5Cd-%5D*%5Ba-z%5C%5Cd%5D)*)%5C%5C.)%2B%5Ba-z%5D%7B2%2C%7D%7C%22%20%2B%20%2F%2F%20validate%20domain%20name%0A%20%20%20%20%20%20%22((%5C%5Cd%7B1%2C3%7D%5C%5C.)%7B3%7D%5C%5Cd%7B1%2C3%7D))%22%20%2B%20%2F%2F%20validate%20OR%20ip%20(v4)%20address%0A%20%20%20%20%20%20%22(%5C%5C%3A%5C%5Cd%2B)%3F(%5C%5C%2F%5B-a-z%5C%5Cd%25_.~%2B%5D*)*%22%20%2B%20%2F%2F%20validate%20port%20and%20path%0A%20%20%20%20%20%20%22(%5C%5C%3F%5B%3B%26a-z%5C%5Cd%25_.~%2B%3D-%5D*)%3F%22%20%2B%20%2F%2F%20validate%20query%20string%0A%20%20%20%20%20%20%22(%5C%5C%23%5B-a-z%5C%5Cd_%5D*)%3F%24%22%2C%0A%20%20%20%20%22i%22%0A%20%20)%3B%20%2F%2F%20validate%20fragment%20locator%0A%20%20return%20!!urlPattern.test(urlString)%3B%0A%7D%3B%0A%0Aif%20(!(url.includes(%22https%3A%2F%2F%22)%20%7C%7C%20url.includes(%22http%3A%2F%2F%22)))%20%7B%0A%20%20url%20%3D%20%22https%3A%2F%2F%22%20%2B%20url%3B%0A%7D%0A%0Aif%20(isValidUrl(url))%20%7B%0A%20%20var%20win%20%3D%20window.open()%3B%0A%20%20win.document.body.style.margin%20%3D%20%220%22%3B%0A%20%20win.document.body.style.height%20%3D%20%22100vh%22%3B%0A%20%20var%20iframe%20%3D%20win.document.createElement(%22iframe%22)%3B%0A%20%20iframe.style.border%20%3D%20%22none%22%3B%0A%20%20iframe.style.width%20%3D%20%22100%25%22%3B%0A%20%20iframe.style.height%20%3D%20%22100%25%22%3B%0A%20%20iframe.style.margin%20%3D%20%220%22%3B%0A%20%20iframe.src%20%3D%20url%3B%0A%20%20win.document.body.appendChild(iframe)%3B%0A%7D%20else%20%7B%0A%20%20alert(%22Please%20enter%20a%20valid%20URL%22)%3B%0A%7D%7D)()%3B"
+        ><button>Bookmarklet</button></a
+      >
+    </div>
+  </body>
+</html>
