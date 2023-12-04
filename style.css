@@ -337,8 +337,9 @@
                                           transition: width 3s;
                                     }
 
-                                          christmas:hover {
+                                         
+                                          .christmas:hover {
                                                 background-color: white;
                                                 width: 125px;
                                                 height: 125px;
-                                        }
+                                          }
