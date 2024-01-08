@@ -9,6 +9,13 @@
             border-radius: 300px;
             font-size: xx-large
         }
+        .title:hover {
+            background-image: url(rainbow.png);
+            font-style: italic;
+            border-radius: 350px;
+            font-size: xx-large;
+        }
+
         .lenny {
             float: right;
         }
