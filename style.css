@@ -80,18 +80,31 @@
                      transition: width 3s;
                 }
    
-                .orange {
-                    background-color: orange;
-                    width: 100px;
-                    height: 100px;
-                    border-radius: 300px;
-                    float: left;
-                    font-style: italic;
-                    font-weight: bold;
-                    border-color: black;
-                     transition: width 3s;
-                }
-   
+                        .orange {
+                               width: 100px;
+                                height: 100px;
+                                border-radius: 300px;
+                                font-style: italic;
+                                float: right;
+                                font-weight: bold;           
+                                padding: 15px 25px;
+                                text-align: center;
+                                cursor: pointer;
+                                outline: none;
+                                color: black;
+                                background-color: orange;
+                                border: none;
+                                border-radius: 15px;
+                                box-shadow: 0 9px #999;
+                      }
+                             .orange:hover {
+                                background-color: #3e8e41
+                              }
+                            .orange:active {
+                                background-color: #3e8e41;
+                                box-shadow: 0 5px #666;
+                                transform: translateY(4px);
+                            }
                         .yellow {
                                width: 100px;
                                 height: 100px;
