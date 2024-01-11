@@ -145,15 +145,23 @@
                     }
   
                             .beast {
-                            background-color: cyan;
-                            width: 100px;
-                            height: 100px;
-                            border-radius: 300px;
-                            float: left;
-                            font-style: italic;
-                            font-weight: bold;
-                            border-color: palevioletred;
-                             transition: width 3s;
+                             width: 100px;
+                              height: 100px;
+                              border-radius: 300px;
+                              font-size: large;
+                              font-style: italic;
+                              float: right;
+                              font-weight: bold;           
+                              padding: 15px 25px;
+                              font-size: 24px;
+                              text-align: center;
+                              cursor: pointer;
+                              outline: none;
+                              color: black;
+                              background-color: cyan;
+                              border: none;
+                              border-radius: 15px;
+                              box-shadow: 0 9px #999;
                       }
 
                             .stop2 {
@@ -175,6 +183,14 @@
                               border-radius: 15px;
                               box-shadow: 0 9px #999;
                             }
+                              .beast:hover {
+                                background-color: #3e8e41
+                              }
+                                .beast:active {
+                                background-color: #3e8e41;
+                                box-shadow: 0 5px #666;
+                                transform: translateY(4px);
+                              }
                               .stop2:hover {
                                 background-color: #3e8e41
                               }
@@ -245,53 +261,7 @@
                                       padding-right: 25px;
                                     }
 
-                                    .blue:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-
-                                    .orange:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-                                      
-                                    .red:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-
-                                    .yellow:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-
-                                    .green:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-
-                                    .purple:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-
-                                     .beast:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
-
-                                     .smile:hover {
-                                      background-color: white;
-                                      width: 125px;
-                                      height: 125px;
-                                    }
+                                    
 
                                     .neon-button span {
                                       cursor: pointer;
