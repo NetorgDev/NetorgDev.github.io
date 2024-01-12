@@ -452,7 +452,8 @@
                                               margin-left: -200px;
                                           }
                                             .embed {
-                                              height: 200px;
+                                              height: 100px;
                                               width: 200px;
                                               position: static;
+                                              font-size: xx-large;
                                             }
