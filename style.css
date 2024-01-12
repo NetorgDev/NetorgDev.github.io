@@ -461,9 +461,9 @@
                                           .aboutblank {
                                               height: 200px;
                                               width: 400px;
-                                              background: white;
+                                              background: aquamarine;
                                               font-size: xx-large;
-                                              position: fixed;
+                                              position: absolute;
                                               top: 50%;
                                               left: 50%;
                                               margin-top: -100px;
@@ -472,6 +472,7 @@
                                             .embed {
                                               height: 100px;
                                               width: 200px;
-                                              position: static;
+                                              position: relative;
                                               font-size: xx-large;
+                                              background: cyan;
                                             }
