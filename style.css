@@ -457,6 +457,7 @@
                                         }
 
                                           .aboutblank {
+                                              border-radius: 50px;
                                               height: 200px;
                                               width: 400px;
                                               background: aquamarine;
@@ -468,6 +469,7 @@
                                               margin-left: -200px;
                                           }
                                             .embed {
+                                              border-radius: 100px;
                                               height: 100px;
                                               width: 200px;
                                               position: relative;
@@ -478,7 +480,7 @@
                                             }
 
                                         .heading_5 {
-                                        background-image: url(rainbow.gif)
+                                        background-image: url(Rainbow.gif)
                                         font-style: italic;
                                         border-radius: 300px;
                                         font-size: xx-large;
