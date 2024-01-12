@@ -476,3 +476,10 @@
                                               font-size: xx-large;
                                               background: cyan;
                                             }
+
+                                        .heading_5 {
+                                        background-image: url(rainbow.gif)
+                                        font-style: italic;
+                                        border-radius: 300px;
+                                        font-size: xx-large;
+                                    }
