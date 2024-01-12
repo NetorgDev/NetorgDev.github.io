@@ -396,41 +396,59 @@
                                     }
 
                                     .pumpkin {
-                                          background-color: #bd6f0f;
                                           width: 100px;
                                           height: 100px;
                                           border-radius: 300px;
-                                          float: left;
                                           font-style: italic;
-                                          font-weight: bold;
-                                          border-color: black;
-                                          transition: width 3s;
+                                          float: right;
+                                          font-weight: bold;           
+                                          padding: 15px 25px;
+                                          text-align: center;
+                                          cursor: pointer;
+                                          outline: none;
+                                          color: black;
+                                          background-color: #bd6f0f;
+                                          border: none;
+                                          border-radius: 15px;
+                                          box-shadow: 0 9px #999;
                                     }
 
-                                          .pumpkin:hover {
-                                                background-color: white;
-                                                width: 125px;
-                                                height: 125px;
-                                        }
+                                         .pumpkin:hover {
+                                              background-color: #3e8e41
+                                            }
+                            .pumpkin:active {
+                                background-color: #3e8e41;
+                                box-shadow: 0 5px #666;
+                                transform: translateY(4px);
+                              }
 
                                          .christmas {
-                                          background-color: Aquamarine;
-                                          width: 100px;
+                                           width: 100px;
                                           height: 100px;
                                           border-radius: 300px;
-                                          float: left;
                                           font-style: italic;
-                                          font-weight: bold;
-                                          border-color: black;
-                                          transition: width 3s;
+                                          float: right;
+                                          font-weight: bold;           
+                                          padding: 15px 25px;
+                                          text-align: center;
+                                          cursor: pointer;
+                                          outline: none;
+                                          color: black;
+                                          background-color: aquamarine;
+                                          border: none;
+                                          border-radius: 15px;
+                                          box-shadow: 0 9px #999;
                                     }
 
-                                         
-                                          .christmas:hover {
-                                                background-color: white;
-                                                width: 125px;
-                                                height: 125px;
-                                          }
+                                         .christmas:hover {
+                                              background-color: #3e8e41
+                                            }
+                            .christmas:active {
+                                background-color: #3e8e41;
+                                box-shadow: 0 5px #666;
+                                transform: translateY(4px);
+                              }
+                                          
 
                                           .Heading_1:hover {
                                           float: right;
