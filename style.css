@@ -473,6 +473,8 @@
                                               position: relative;
                                               font-size: xx-large;
                                               background: cyan;
+                                              top: 36%;
+                                              left: 50%;
                                             }
 
                                         .heading_5 {
